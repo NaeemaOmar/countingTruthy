@@ -1,0 +1,54 @@
+:root {
+    --darkestGreen: #024104;
+    --softerDarkGreen:#02780699;
+    /* Use this as the footer, maybe NavBar as well */
+    --brightGreen: #c0f0c2;
+    --veryGreen: #034e06;
+}
+
+/* Background colors */
+
+.veryGreenBg {
+    background-color: var(--veryGreen);
+}
+
+.darkestGreenBg{
+    background-color: var(--darkestGreen);
+}
+
+.brighttGreenBg{
+    background-color: var(--brightGreen);
+}
+
+/* Text colors */
+
+.veryGreenTxt {
+    color: var(--veryGreen);
+}
+
+.brighttGreenTxt{
+    color: var(--brightGreen);
+}
+
+.darkestGreenTxt {
+    color: var(--darkestGreen);
+}
+
+
+/* BoxShadow effects */
+.boxShadow {
+    box-shadow: 0px 0px 10px 10px var(--brightGreen);
+}
+
+
+/* OTHER */
+
+.maxWidth{
+    max-width: fit-content;
+}
+
+::placeholder{
+    color: var(--brightGreen);
+    text-align: center;
+    background-color: var(--veryGreen);
+}
